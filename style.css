@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: #081B2E;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #7fffd4;
+}
+
+.header h2{
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.head-image{
+    padding-top: 95px;
+    padding-bottom: 35px;
+    padding-left: 55px;
+    width: 180px;
+}
+
+.input-box{
+    height: 35px;
+    width: 250px;
+    margin: 4px;
+    border-style: hidden;
+    border-radius: 15px;
+    padding-left: 12px;
+}
+
+.login-btn{
+    height: 35px;
+    width: 250px;
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-style: hidden;
+    border-radius: 15px;
+    padding-left: 12px;
+    font-size: 17px;
+    font-weight: 530;
+    background-color: aquamarine;
+    color: black;
+}
+
+.f-password{
+    list-style: none;
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 65%;
+    margin-left: 12px;
+}
+
+.f-create-account{
+    list-style: none;
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 65%;
+    margin: 12px;
+}
+
+.footer{
+    background-color: rgba(127, 255, 212, 0.568);
+    text-align: end;
+    color: rgb(17, 4, 4);
+    font-weight: 500;
+    font-size: 80%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p{
+    margin: 0;
+    padding-right: 15px;
+}
+
